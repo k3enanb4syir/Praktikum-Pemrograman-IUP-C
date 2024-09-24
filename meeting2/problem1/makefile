@@ -12,3 +12,6 @@ clean:
 
 run: problem1_payslip
 	./problem1_payslip
+
+run_test: testmeeting2problem1
+	./testmeeting2problem1		
