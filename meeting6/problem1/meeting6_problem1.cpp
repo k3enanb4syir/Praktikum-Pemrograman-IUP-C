@@ -35,7 +35,7 @@ int main()
         cout << "Enter the UAS value:" << endl;
         cin >> student[i].uas;
         if (student[i].uas < 0 || student[i].uas > 100){
-            cout << "Error. Try again by entering UTS value from 0-100"<<endl;
+            cout << "Error. Try again by entering UAS value from 0-100"<<endl;
             continue;
         }
         cout << "Average Value = " << (student[i].uts + student[i].uas) /2 << "(Press 1 to Continue)" << endl;
