@@ -25,3 +25,9 @@ test: meeting7_problem1_test
 # Target to clean up compiled files
 clean:
 	rm -f meeting7_problem1.o meeting7_problem1_test.o meeting7_problem1.exe meeting7_problem1_test.exe
+
+all:
+	g++ -o meeting7_problem1 meeting7_problem1.cpp
+
+dump:
+	objdump -d meeting7_problem1 > meeting7_problem1.asm
