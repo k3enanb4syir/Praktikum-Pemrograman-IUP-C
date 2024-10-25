@@ -15,11 +15,10 @@ int factorial(int x) {
 int main()
 {
     int n;
+    n = 6;
     
     
-    cout << "Enter a number" << endl;
-    cin >> n;
-    
+ 
     if (n < 0) {
         return 1;
     }
